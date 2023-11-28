@@ -173,11 +173,6 @@
   display: block;
 }
 
-.banner__media-back {
-  width: auto;
-  text-align: center;
-}
-
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;
