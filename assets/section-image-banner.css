@@ -168,6 +168,11 @@
   width: 50%;
 }
 
+.banner__media-stack {
+  margin: auto;
+  display: block;
+}
+
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;
