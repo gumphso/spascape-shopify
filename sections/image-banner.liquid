@@ -27,8 +27,8 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
-  .banner_media-stack::after {
-    width: {{ section.settings.image_size | divided_by: 100.0 }};
+  .banner_media-stack {
+    width: {{ section.settings.image_size }};
   }
 {%- endstyle -%}
 
