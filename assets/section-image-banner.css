@@ -164,8 +164,8 @@
   width: 100%;
 }
 
-.banner__media-half {
-  width: 50%;
+.banner__media-full {
+  width: 100%;
 }
 
 .banner__media-stack {
