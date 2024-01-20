@@ -3,10 +3,17 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading_x7cVLD": {
+          "type": "heading",
+          "settings": {
+            "heading": "ESCAPE THE EVERYDAY",
+            "heading_size": "h0"
+          }
+        },
         "buttons_L77xGJ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Book Appointment",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
@@ -16,6 +23,7 @@
         }
       },
       "block_order": [
+        "heading_x7cVLD",
         "buttons_L77xGJ"
       ],
       "settings": {
