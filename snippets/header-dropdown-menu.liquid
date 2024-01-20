@@ -41,7 +41,7 @@
                         {% if childlink.current %}
                           aria-current="page"
                         {% endif %}
-                      >
+                      ><p>bingus</p>
                         {{ childlink.title | escape }}
                       </a>
                     {%- else -%}
@@ -50,7 +50,7 @@
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                           class="header__menu-item link link--text list-menu__item focus-inset caption-large"
                         >
-                          <span>{{ childlink.title | escape }}</span><p>bingus</p>
+                          <span>{{ childlink.title | escape }}</span>
                           {% render 'icon-caret' %}
                         </summary>
                         <ul
