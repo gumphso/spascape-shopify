@@ -41,7 +41,7 @@
                         {% if childlink.current %}
                           aria-current="page"
                         {% endif %}
-                      ><p>bingus</p>
+                      >
                         {{ childlink.title | escape }}
                       </a>
                     {%- else -%}
@@ -68,7 +68,7 @@
                                 {% endif %}
                               >
                                 {{ grandchildlink.title | escape }}
-                              </a>
+                              </a><p>bingus</p>
                             </li>
                           {%- endfor -%}
                         </ul>
